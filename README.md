@@ -1,7 +1,7 @@
 # GAIA-AIR-Ampel360XWLRGA
 ## AMPEL360 Extra Wide Body Long Range Green AIRCRAFT
 
-# 0.md
+
 
 ## Table of Contents
 
@@ -2616,3 +2616,868 @@ Cubre tecnologías avanzadas como Fly-by-Light y sistemas de control redundantes
 ATA 98 - Sistemas para Aeronaves No Tripuladas
 
 Se enfoca en capacidades autónomas y de control remoto, esenciales para operaciones de defensa y misiones especiales.
+
+
+Entendido. A continuación, se presenta un **Índice Completo de Módulos de Datos** para cada **Capítulo ATA** del **Manual de Mantenimiento del GAIA-AIR: A360XWLRGA**, estructurado según la especificación **S1000D**. Este índice incluye todos los tipos de **Data Modules** necesarios para una documentación técnica integral, como **Descriptivos (DDN)**, **Procedimentales (PDN)**, **Logísticos (LDN)**, **Catálogo de Piezas (IPD)**, **Seguridad (SDM)**, **Cambio (CDM)**, **Pruebas (TDM)**, **Referencia (RDM)**, **Diagramas Técnicos (DDN)**, **Procedimientos Especiales (SPDM)** y **Software (SWDM)**.
+
+Debido a la extensión del contenido, se presentará una estructura general con ejemplos representativos para cada tipo de módulo dentro de algunos capítulos ATA seleccionados. Puedes replicar este formato para los demás capítulos ATA según tus necesidades específicas.
+
+---
+
+## **Índice Completo de Módulos de Datos por Capítulo ATA**
+
+### **ATA 00 - General**
+
+| Código S1000D             | Tipo de Módulo         | Título                                   | Descripción                                                                 |
+|---------------------------|------------------------|------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-00-00-00-01-00-A | Descriptivo (DDN)      | Introducción General                     | Visión general del manual de mantenimiento, objetivos y alcance.            |
+| PDN-GAIA-00-00-00-01-01-A | Procedimental (PDN)    | Procedimientos Iniciales                | Procedimientos para iniciar el mantenimiento y uso del manual.              |
+| DDN-GAIA-00-00-00-02-00-A | Descriptivo (DDN)      | Glosario de Términos                     | Definición de términos y abreviaturas utilizadas en el manual.               |
+| PDN-GAIA-00-00-00-02-01-A | Procedimental (PDN)    | Uso del Manual                           | Instrucciones para navegar y utilizar eficazmente el manual de mantenimiento.|
+
+---
+
+### **ATA 05 - Límites de Tiempo / Inspecciones de Mantenimiento**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-05-00-00-01-00-A | Descriptivo (DDN)      | Límites de Tiempo y Vida Útil de Componentes | Descripción de los intervalos de mantenimiento y límites de vida útil de componentes críticos. |
+| PDN-GAIA-05-00-00-01-01-A | Procedimental (PDN)    | Programación de Inspecciones               | Procedimientos para programar y realizar inspecciones de mantenimiento.    |
+| DDN-GAIA-05-10-00-01-00-A | Descriptivo (DDN)      | Programas de Mantenimiento                 | Detalle de los ciclos de inspección (diarios, semanales, mensuales, etc.).  |
+| PDN-GAIA-05-10-00-01-01-A | Procedimental (PDN)    | Ejecución de Programas de Mantenimiento     | Instrucciones para la ejecución de los programas de mantenimiento establecidos. |
+| DDN-GAIA-05-20-00-01-00-A | Descriptivo (DDN)      | Vida Útil de Componentes                   | Listado de componentes con límites de vida útil y criterios de reemplazo.   |
+| PDN-GAIA-05-20-00-01-01-A | Procedimental (PDN)    | Reemplazo y Registro de Componentes         | Procedimientos para el reemplazo de componentes y el registro de intervenciones.|
+
+---
+
+### **ATA 06 - Procedimientos de Desarrollo Conceptual**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-06-00-00-01-00-A | Descriptivo (DDN)      | Metodologías de Diseño Conceptual           | Descripción de las metodologías utilizadas en la fase de diseño conceptual.  |
+| PDN-GAIA-06-00-00-01-01-A | Procedimental (PDN)    | Desarrollo de Conceptos de Diseño           | Procedimientos para la generación y evaluación de conceptos de diseño.      |
+| DDN-GAIA-06-10-00-01-00-A | Descriptivo (DDN)      | Análisis de Requerimientos Operacionales    | Identificación de necesidades y expectativas del mercado y regulaciones.    |
+| PDN-GAIA-06-10-00-01-01-A | Procedimental (PDN)    | Procedimientos de Generación de Conceptos    | Pasos para desarrollar propuestas de diseño y seleccionar conceptos viables.|
+| DDN-GAIA-06-20-00-01-00-A | Descriptivo (DDN)      | Herramientas y Técnicas de Simulación        | Descripción de las herramientas de modelado y simulación utilizadas.        |
+| PDN-GAIA-06-20-00-01-01-A | Procedimental (PDN)    | Uso de Herramientas de Simulación            | Procedimientos para configurar y utilizar herramientas de simulación.       |
+
+---
+
+### **ATA 07 - Procedimientos de Diseño Detallado**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-07-00-00-01-00-A | Descriptivo (DDN)      | Desarrollo de Especificaciones Técnicas     | Detalles sobre materiales, dimensiones y tolerancias de componentes y sistemas. |
+| PDN-GAIA-07-00-00-01-01-A | Procedimental (PDN)    | Elaboración de Planos y Documentos Técnicos | Procedimientos para crear y revisar planos y documentación técnica.          |
+| DDN-GAIA-07-10-00-01-00-A | Descriptivo (DDN)      | Integración de Sistemas                      | Asegurar la compatibilidad y funcionalidad entre subsistemas.                |
+| PDN-GAIA-07-10-00-01-01-A | Procedimental (PDN)    | Validación y Verificación del Diseño          | Procedimientos para pruebas estructurales y aerodinámicas, y validación física. |
+
+---
+
+### **ATA 08 - Prácticas Estándar de Diseño y Desarrollo**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-08-00-00-01-00-A | Descriptivo (DDN)      | Normativas y Regulaciones                   | Detalles sobre cumplimiento con autoridades aeronáuticas y estándares de calidad. |
+| PDN-GAIA-08-00-00-01-01-A | Procedimental (PDN)    | Procedimientos de Cumplimiento              | Procedimientos para auditorías internas y actualización de normas.          |
+| DDN-GAIA-08-10-00-01-00-A | Descriptivo (DDN)      | Metodologías de Diseño Estructurado         | Uso de técnicas como el diseño basado en modelos (MBD).                     |
+| PDN-GAIA-08-10-00-01-01-A | Procedimental (PDN)    | Validación y Verificación del Diseño          | Pruebas y simulaciones para asegurar cumplimiento de requisitos.            |
+
+---
+
+### **ATA 09 - Manuales de Diseño y Procesos**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-09-00-00-01-00-A | Descriptivo (DDN)      | Manuales de Diseño                           | Detalles técnicos y requisitos para sistemas y componentes.                |
+| PDN-GAIA-09-00-00-01-01-A | Procedimental (PDN)    | Actualización y Control de Versiones         | Procedimientos para la revisión y actualización de manuales de diseño.     |
+| DDN-GAIA-09-10-00-01-00-A | Descriptivo (DDN)      | Manuales de Procesos                          | Instrucciones detalladas para fabricación y ensamblaje.                     |
+| PDN-GAIA-09-10-00-01-01-A | Procedimental (PDN)    | Gestión de Calidad en Procesos                | Métodos y criterios para asegurar la conformidad y calidad en procesos.      |
+
+---
+
+### **ATA 10 - Integración de Sistemas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-10-00-00-01-00-A | Descriptivo (DDN)      | Diseño de Cableado y Conexiones               | Descripción de diseño eficiente, materiales y técnicas de agrupación de cables. |
+| PDN-GAIA-10-00-00-01-01-A | Procedimental (PDN)    | Inspección y Verificación de Cableado         | Procedimientos para inspeccionar y verificar el estado del cableado según esquemas. |
+| DDN-GAIA-10-10-00-01-00-A | Descriptivo (DDN)      | Esquemas de Interfaz                           | Diagramas detallados de interconexión y protocolos de comunicación utilizados. |
+| PDN-GAIA-10-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Esquemas de Interfaz          | Procedimientos para actualizar y gestionar la documentación de esquemas de interfaz. |
+| DDN-GAIA-10-20-00-01-00-A | Descriptivo (DDN)      | Puntos de Identificación y Verificación         | Descripción de los códigos y etiquetas para facilitar la identificación de componentes y sistemas clave. |
+| PDN-GAIA-10-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Puntos de Identificación      | Procedimientos para revisar y actualizar etiquetas y realizar verificaciones rápidas mediante puntos de verificación. |
+
+---
+
+### **ATA 11 - Rótulos y Marcas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-11-00-00-01-00-A | Descriptivo (DDN)      | Señalización Externa                          | Descripción de marcas de matrícula, nacionalidad y señales de advertencia externas. |
+| PDN-GAIA-11-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Señalización Externa         | Procedimientos para inspeccionar y mantener marcas y señales externas.       |
+| DDN-GAIA-11-10-00-01-00-A | Descriptivo (DDN)      | Señalización Interna                          | Descripción de indicadores de salidas de emergencia e instrucciones para pasajeros y tripulación. |
+| PDN-GAIA-11-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Señalización Interna         | Procedimientos para inspeccionar y mantener indicadores y sistemas de señalización interna. |
+
+---
+
+### **ATA 12 - Servicio y Manejo**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-12-00-00-01-00-A | Descriptivo (DDN)      | Abastecimiento de Combustible                  | Procedimientos seguros de repostaje y especificaciones de combustibles permitidos. |
+| PDN-GAIA-12-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Combustible       | Procedimientos para el manejo, inspección y reemplazo de componentes del sistema de combustible. |
+| DDN-GAIA-12-10-00-01-00-A | Descriptivo (DDN)      | Servicios de Fluidos y Lubricación             | Descripción de sistemas de reabastecimiento de aceite, líquidos hidráulicos y de refrigeración. |
+| PDN-GAIA-12-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Servicios de Fluidos          | Procedimientos para el reabastecimiento, manejo y disposición de materiales peligrosos. |
+
+---
+
+### **ATA 13 - Información del Operador**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-13-00-00-01-00-A | Descriptivo (DDN)      | Datos Operativos                              | Estadísticas de rendimiento, consumo de combustible y tiempos de vuelo.     |
+| PDN-GAIA-13-00-00-01-01-A | Procedimental (PDN)    | Gestión de Historial de Mantenimiento         | Procedimientos para registrar intervenciones y patrones de desgaste.        |
+| DDN-GAIA-13-10-00-01-00-A | Descriptivo (DDN)      | Comunicaciones con el Fabricante               | Descripción de canales de soporte técnico y procedimientos para asistencia. |
+| PDN-GAIA-13-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Comunicaciones con el Fabricante | Procedimientos para suscribirse y acceder a actualizaciones y boletines.    |
+
+---
+
+### **ATA 14 - Prácticas Estándar de Hardware y Herramientas Generales**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-14-00-00-01-00-A | Descriptivo (DDN)      | Selección y Uso de Hardware                    | Tipos de elementos de fijación, especificaciones y estándares de materiales.|
+| PDN-GAIA-14-00-00-01-01-A | Procedimental (PDN)    | Instalación y Torque de Hardware                | Procedimientos para identificar, seleccionar e instalar hardware correctamente. |
+| DDN-GAIA-14-10-00-01-00-A | Descriptivo (DDN)      | Herramientas Generales                           | Descripción de herramientas manuales y eléctricas, incluyendo calibración y certificación. |
+| PDN-GAIA-14-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Herramientas Generales          | Procedimientos para almacenar, cuidar y calibrar herramientas.              |
+
+---
+
+### **ATA 15 - Información para la Tripulación**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-15-00-00-01-00-A | Descriptivo (DDN)      | Procedimientos Operativos Especiales           | Gestión de sistemas avanzados y protocolos de comunicación interna.         |
+| PDN-GAIA-15-00-00-01-01-A | Procedimental (PDN)    | Uso de Equipamiento Especial                    | Instrucciones detalladas para situaciones no rutinarias y uso de equipamiento específico. |
+| DDN-GAIA-15-10-00-01-00-A | Descriptivo (DDN)      | Entrenamiento y Competencias                    | Requisitos de formación continua y recursos disponibles para la tripulación. |
+| PDN-GAIA-15-10-00-01-01-A | Procedimental (PDN)    | Gestión de Entrenamiento                        | Procedimientos para acceder, programar y registrar sesiones de entrenamiento. |
+
+---
+
+### **ATA 16 - Gestión del Ciclo de Vida**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-16-00-00-01-00-A | Descriptivo (DDN)      | Planificación y Adquisición                     | Análisis de ciclo de vida, opciones de configuración y personalización.     |
+| PDN-GAIA-16-00-00-01-01-A | Procedimental (PDN)    | Procedimientos de Adquisición y Puesta en Servicio | Pasos para la adquisición, puesta en servicio y consideraciones financieras y contractuales. |
+| DDN-GAIA-16-10-00-01-00-A | Descriptivo (DDN)      | Operación y Mantenimiento                        | Programas de mantenimiento preventivo y monitoreo de rendimiento.          |
+| PDN-GAIA-16-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento Preventivo y Monitoreo              | Procedimientos para usar herramientas de gestión de mantenimiento y estrategias para extender la vida útil. |
+| DDN-GAIA-16-20-00-01-00-A | Descriptivo (DDN)      | Retiro y Disposición                             | Reciclaje, recuperación de materiales y cumplimiento legal en disposición final. |
+| PDN-GAIA-16-20-00-01-01-A | Procedimental (PDN)    | Procedimientos de Retiro y Disposición             | Pasos para planificar el retiro de servicio y gestionar la documentación final. |
+
+---
+
+### **ATA 17 - Procedimientos de Mantenimiento**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-17-00-00-01-00-A | Descriptivo (DDN)      | Planificación de Mantenimiento                  | Uso de sistemas de gestión para programar tareas y asignar recursos.       |
+| PDN-GAIA-17-00-00-01-01-A | Procedimental (PDN)    | Creación y Actualización de Planes de Mantenimiento | Procedimientos para crear, actualizar y comunicar planes de mantenimiento. |
+| DDN-GAIA-17-10-00-01-00-A | Descriptivo (DDN)      | Ejecución de Tareas de Mantenimiento             | Procedimientos estándar de trabajo (SOPs) y prácticas de seguridad.        |
+| PDN-GAIA-17-10-00-01-01-A | Procedimental (PDN)    | Procedimientos de Seguridad en Mantenimiento       | Instrucciones para el uso adecuado de EPP y documentación de tareas completadas. |
+| DDN-GAIA-17-20-00-01-00-A | Descriptivo (DDN)      | Gestión de Calidad en Mantenimiento               | Auditorías, inspecciones y gestión de no conformidades en operaciones de mantenimiento. |
+| PDN-GAIA-17-20-00-01-01-A | Procedimental (PDN)    | Implementación de Acciones Correctivas y Preventivas | Procedimientos para corregir desviaciones y mejorar indicadores de calidad. |
+
+---
+
+### **ATA 18 - Análisis de Vibración y Ruido**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-18-00-00-01-00-A | Descriptivo (DDN)      | Monitoreo de Vibraciones                         | Uso de sensores y equipos de medición para monitorear vibraciones.          |
+| PDN-GAIA-18-00-00-01-01-A | Procedimental (PDN)    | Procedimientos de Análisis y Diagnóstico         | Procedimientos para analizar datos de vibración y diagnosticar problemas.   |
+| DDN-GAIA-18-10-00-01-00-A | Descriptivo (DDN)      | Control de Ruido                                 | Técnicas de insonorización y cumplimiento de regulaciones ambientales.      |
+| PDN-GAIA-18-10-00-01-01-A | Procedimental (PDN)    | Procedimientos de Control de Ruido                | Procedimientos para implementar y mantener técnicas de control de ruido.    |
+
+---
+
+### **ATA 20 - Prácticas Estándar - Estructura**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-20-00-00-01-00-A | Descriptivo (DDN)      | Materiales y Procedimientos Aprobados           | Selección y uso de materiales compuestos y técnicas de reparación estructural. |
+| PDN-GAIA-20-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Materiales Compuestos            | Procedimientos específicos para la reparación y reforzamiento de materiales compuestos. |
+| DDN-GAIA-20-10-00-01-00-A | Descriptivo (DDN)      | Herramientas Especializadas                       | Descripción de equipos y dispositivos utilizados para trabajar con materiales avanzados. |
+| PDN-GAIA-20-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Herramientas Especializadas        | Procedimientos para el mantenimiento y calibración de herramientas especializadas. |
+| DDN-GAIA-20-20-00-01-00-A | Descriptivo (DDN)      | Normativas y Referencias                         | Cumplimiento de regulaciones aeronáuticas y estándares de calidad en mantenimiento estructural. |
+| PDN-GAIA-20-20-00-01-01-A | Procedimental (PDN)    | Procedimientos de Protección contra la Corrosión    | Procedimientos para aplicar recubrimientos protectores y realizar inspecciones regulares para detectar corrosión. |
+
+---
+
+### **ATA 21 - Aire Acondicionado**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-21-00-00-01-00-A | Descriptivo (DDN)      | Suministro de Aire                               | Descripción de fuentes de aire de alta presión y compresores eléctricos de alta eficiencia. |
+| PDN-GAIA-21-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Suministro de Aire    | Procedimientos para inspeccionar y mantener compresores, filtros y sistemas de lubricación. |
+| DDN-GAIA-21-10-00-01-00-A | Descriptivo (DDN)      | Sistema de Filtración                            | Detalles sobre filtros HEPA y sistemas de limpieza de conductos.           |
+| PDN-GAIA-21-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistema de Filtración            | Procedimientos para reemplazar elementos filtrantes y limpiar conductos.    |
+| DDN-GAIA-21-20-00-01-00-A | Descriptivo (DDN)      | Distribución de Aire                              | Descripción de conductos, difusores y sistemas de control de flujo de aire. |
+| PDN-GAIA-21-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Distribución de Aire              | Procedimientos para verificar actuadores, sensores y calibrar sistemas de control de flujo. |
+| DDN-GAIA-21-30-00-01-00-A | Descriptivo (DDN)      | Control de Temperatura                            | Sistemas de regulación de temperatura, incluyendo unidades de enfriamiento y calefacción. |
+| PDN-GAIA-21-30-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Control de Temperatura            | Procedimientos para inspeccionar y mantener sistemas de refrigeración y calefacción. |
+| DDN-GAIA-21-40-00-01-00-A | Descriptivo (DDN)      | Presurización                                     | Sistemas de control de presión de cabina y válvulas automáticas reguladas por IA. |
+| PDN-GAIA-21-40-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Presurización                      | Procedimientos para pruebas de hermeticidad y verificación de sensores de presión y altitud. |
+
+---
+
+### **ATA 22 - Vuelo Automático**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-22-00-00-01-00-A | Descriptivo (DDN)      | Piloto Automático                                | Descripción del sistema de control automático de vuelo y su integración con sistemas de navegación y vigilancia. |
+| PDN-GAIA-22-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Piloto Automático                | Procedimientos para actualizar software, verificar redundancias y realizar pruebas de respuesta en tiempo real. |
+| DDN-GAIA-22-10-00-01-00-A | Descriptivo (DDN)      | Sistema de Control de Velocidad                   | Gestión automática de la velocidad mediante autoaceleradores y control de empuje. |
+| PDN-GAIA-22-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistema de Control de Velocidad     | Procedimientos para verificar sensores de posición y potencia, y calibrar respuestas operativas. |
+| DDN-GAIA-22-20-00-01-00-A | Descriptivo (DDN)      | Sistemas de Navegación Integrados                  | Integración con sistemas GNSS y herramientas de navegación avanzadas para seguimiento de rutas. |
+| PDN-GAIA-22-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Navegación Integrados  | Procedimientos para actualizar bases de datos GNSS, verificar antenas y receptores. |
+
+---
+
+### **ATA 23 - Comunicaciones**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-23-00-00-01-00-A | Descriptivo (DDN)      | Comunicaciones de Voz                             | Sistemas de comunicación por voz con ATC y entre tripulación, incluyendo radios VHF/UHF. |
+| PDN-GAIA-23-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Comunicaciones de Voz            | Procedimientos para probar transmisión y recepción, y verificar antenas y conectividad. |
+| DDN-GAIA-23-10-00-01-00-A | Descriptivo (DDN)      | Comunicaciones Satelitales                        | Sistemas de comunicación global vía satélite y enlaces de datos satelitales.   |
+| PDN-GAIA-23-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Comunicaciones Satelitales        | Procedimientos para actualizar software de módems satelitales y verificar alineación de antenas. |
+| DDN-GAIA-23-20-00-01-00-A | Descriptivo (DDN)      | Comunicaciones de Datos                            | Sistemas para transmisión de datos de vuelo y mantenimiento, incluyendo ACARS. |
+| PDN-GAIA-23-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Comunicaciones de Datos            | Procedimientos para probar conectividad, seguridad de datos y actualizar protocolos de comunicación. |
+
+---
+
+### **ATA 24 - Energía Eléctrica**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-24-00-00-01-00-A | Descriptivo (DDN)      | Generación de Energía                              | Descripción de sistemas de generación primaria y secundaria, incluyendo generadores eléctricos accionados por motores. |
+| PDN-GAIA-24-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Generación de Energía              | Procedimientos para inspeccionar bobinados, conexiones y realizar pruebas de carga y rendimiento. |
+| DDN-GAIA-24-10-00-01-00-A | Descriptivo (DDN)      | Almacenamiento de Energía                            | Sistemas de baterías de estado sólido y almacenamiento avanzado de energía.  |
+| PDN-GAIA-24-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Almacenamiento de Energía            | Procedimientos para verificar ciclos de carga, salud de celdas y reemplazo de baterías según ciclo de vida. |
+| DDN-GAIA-24-20-00-01-00-A | Descriptivo (DDN)      | Distribución de Energía                               | Redes de distribución y sistemas de protección eléctrica, incluyendo paneles de distribución inteligentes. |
+| PDN-GAIA-24-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Distribución de Energía               | Procedimientos para probar interruptores, sistemas de protección y actualizar firmware de paneles inteligentes. |
+
+---
+
+### **ATA 25 - Equipamiento / Mobiliario**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-25-00-00-01-00-A | Descriptivo (DDN)      | Asientos y Sistemas de Retención                    | Descripción de los asientos, características de confort y sistemas de retención. |
+| PDN-GAIA-25-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Asientos y Retenciones              | Procedimientos para lubricar, ajustar y verificar sistemas eléctricos de asientos y retenciones. |
+| DDN-GAIA-25-10-00-01-00-A | Descriptivo (DDN)      | Compartimentos y Almacenamiento                       | Descripción de compartimentos superiores, de carga y sistemas de almacenamiento. |
+| PDN-GAIA-25-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Compartimentos y Almacenamiento       | Procedimientos para inspeccionar, limpiar y reparar sistemas de almacenamiento y mecanismos de cierre de puertas. |
+| DDN-GAIA-25-20-00-01-00-A | Descriptivo (DDN)      | Sistemas de Entretenimiento                          | Descripción de sistemas de entretenimiento a bordo, incluyendo pantallas y sistemas de audio. |
+| PDN-GAIA-25-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Entretenimiento           | Procedimientos para actualizar software, verificar conectividad y mantener la calidad de imagen y sonido de las pantallas integradas. |
+
+---
+
+### **ATA 26 - Protección Contra Incendios**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-26-00-00-01-00-A | Descriptivo (DDN)      | Detección de Incendios                             | Descripción de sensores de humo y calor, y sistemas de alerta temprana.    |
+| PDN-GAIA-26-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Detección de Incendios | Procedimientos para probar, calibrar y limpiar sensores de humo y calor.     |
+| DDN-GAIA-26-10-00-01-00-A | Descriptivo (DDN)      | Extinción de Incendios                             | Descripción de sistemas automáticos y manuales de extinción de incendios, incluyendo agentes extintores ecológicos. |
+| PDN-GAIA-26-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Extinción de Incendios    | Procedimientos para verificar presiones, cargas de agentes extintores y reemplazo de componentes según fechas de caducidad. |
+
+---
+
+### **ATA 27 - Controles de Vuelo**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-27-00-00-01-00-A | Descriptivo (DDN)      | Superficies de Control Primarias                    | Descripción de alerones, elevadores y timón de dirección, y sus sistemas asociados. |
+| PDN-GAIA-27-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Superficies de Control Primarias      | Procedimientos para inspeccionar, ajustar y reparar superficies de control y actuadores electromecánicos. |
+| DDN-GAIA-27-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Control                                | Descripción de palancas, pedales y sistemas de transmisión, incluyendo Fly-by-Wire. |
+| PDN-GAIA-27-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Control                   | Procedimientos para verificar software, redundancias y realizar pruebas de integridad de señales en sistemas Fly-by-Wire. |
+
+---
+
+### **ATA 28 - Combustible**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-28-00-00-01-00-A | Descriptivo (DDN)      | Almacenamiento de Combustible                        | Descripción de tanques de combustible, sistemas de ventilación y protección. |
+| PDN-GAIA-28-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Almacenamiento de Combustible        | Procedimientos para inspeccionar sellos, estructuras y sistemas de ventilación en tanques de combustible. |
+| DDN-GAIA-28-10-00-01-00-A | Descriptivo (DDN)      | Distribución de Combustible                           | Descripción de bombas eléctricas y tuberías de suministro de combustible.  |
+| PDN-GAIA-28-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Distribución de Combustible           | Procedimientos para verificar caudales, presiones, y realizar inspección de bombas y filtros. |
+| DDN-GAIA-28-20-00-01-00-A | Descriptivo (DDN)      | Medición e Indicación                                | Descripción de sistemas de medición de nivel y flujo de combustible, incluyendo sensores capacitivos. |
+| PDN-GAIA-28-20-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Medición e Indicación                | Procedimientos para calibrar sensores, verificar indicadores en cabina y realizar pruebas de precisión. |
+
+---
+
+### **ATA 29 - Sistema Hidráulico**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-29-00-00-01-00-A | Descriptivo (DDN)      | Sistema Hidráulico Principal                        | Descripción de bombas hidráulicas eléctricas de alta eficiencia y uso de fluidos ecológicos. |
+| PDN-GAIA-29-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistema Hidráulico Principal          | Procedimientos para inspeccionar líneas, conexiones y cambiar fluidos hidráulicos. |
+| DDN-GAIA-29-10-00-01-00-A | Descriptivo (DDN)      | Sistema Hidráulico Auxiliar                          | Descripción de acumuladores y sistemas de respaldo para garantizar operación continua. |
+| PDN-GAIA-29-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistema Hidráulico Auxiliar            | Procedimientos para verificar presión en acumuladores y probar sistemas redundantes. |
+
+---
+
+### **ATA 30 - Protección contra Hielo y Lluvia**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-30-00-00-01-00-A | Descriptivo (DDN)      | Sistemas Antihielo                                  | Descripción de sistemas térmicos eléctricos y materiales inteligentes para prevenir acumulación de hielo. |
+| PDN-GAIA-30-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas Antihielo                  | Procedimientos para inspeccionar elementos calefactores y verificar sensores de temperatura. |
+| DDN-GAIA-30-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Limpieza de Parabrisas                   | Descripción de sistemas de rociado hidrofóbico y limpiaparabrisas de alta velocidad. |
+| PDN-GAIA-30-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Limpieza de Parabrisas      | Procedimientos para reponer líquidos repelentes y revisar motores y mecanismos de limpieza. |
+
+---
+
+### **ATA 31 - Indicadores y Sistemas de Registro**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-31-00-00-01-00-A | Descriptivo (DDN)      | Paneles de Instrumentos                             | Descripción de pantallas multifunción (MFD) y sistemas de interfaz hombre-máquina (HMI). |
+| PDN-GAIA-31-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Paneles de Instrumentos             | Procedimientos para actualizar software, calibrar pantallas y verificar funcionalidad de interfaces táctiles. |
+| DDN-GAIA-31-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Registro de Datos                        | Descripción de Flight Data Recorders (FDR) y sistemas de transmisión de datos en tiempo real. |
+| PDN-GAIA-31-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Registro de Datos         | Procedimientos para descargar y analizar datos, verificar integridad y seguridad de almacenamiento. |
+
+---
+
+### **ATA 32 - Tren de Aterrizaje**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-32-00-00-01-00-A | Descriptivo (DDN)      | Tren de Aterrizaje Principal                          | Descripción de materiales compuestos de alta resistencia y sistemas de retracción eléctricos. |
+| PDN-GAIA-32-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Tren de Aterrizaje Principal          | Procedimientos para inspeccionar componentes estructurales y verificar mecanismos de retracción y extensión. |
+| DDN-GAIA-32-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Frenos                                     | Descripción de frenos electromagnéticos regenerativos y control electrónico de frenado (EBC). |
+| PDN-GAIA-32-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Frenos                      | Procedimientos para revisar discos, pastillas y sistemas electrónicos de control de frenado. |
+
+---
+
+### **ATA 33 - Luces**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-33-00-00-01-00-A | Descriptivo (DDN)      | Iluminación Exterior                                 | Descripción de luces de navegación LED y luces anticolisión.               |
+| PDN-GAIA-33-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Iluminación Exterior                     | Procedimientos para verificar intensidad, color y estado de lentes y carcasas. |
+| DDN-GAIA-33-10-00-01-00-A | Descriptivo (DDN)      | Iluminación Interior                                 | Descripción de iluminación ambiental adaptativa y sistemas de iluminación de emergencia. |
+| PDN-GAIA-33-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Iluminación Interior                     | Procedimientos para reemplazar módulos LED y probar sistemas de emergencia. |
+
+---
+
+### **ATA 34 - Navegación**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-34-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Navegación por Satélite                    | Descripción de receptores GNSS multiconstelación y sistemas de aumentación SBAS/GBAS. |
+| PDN-GAIA-34-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Navegación por Satélite        | Procedimientos para actualizar software de navegación y verificar antenas y conexiones. |
+| DDN-GAIA-34-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Navegación Inercial                           | Descripción de Unidades de Medición Inercial (IMU) y fusión de sensores para mayor precisión. |
+| PDN-GAIA-34-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Navegación Inercial               | Procedimientos para calibrar sensores inerciales y diagnosticar sistemas de procesamiento. |
+
+---
+
+### **ATA 35 - Oxígeno**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-35-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Oxígeno para Tripulación                     | Descripción de máscaras de oxígeno de demanda y sistemas de generación de oxígeno a bordo (OBOGS). |
+| PDN-GAIA-35-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Oxígeno para Tripulación     | Procedimientos para inspeccionar máscaras, válvulas y verificar generadores y filtros. |
+| DDN-GAIA-35-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Oxígeno para Pasajeros                       | Descripción de máscaras de caída automática y generadores químicos de oxígeno. |
+| PDN-GAIA-35-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Oxígeno para Pasajeros       | Procedimientos para reemplazar generadores químicos y probar sistemas de despliegue de máscaras. |
+
+---
+
+### **ATA 36 - Aire Neumático**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-36-00-00-01-00-A | Descriptivo (DDN)      | Sistema de Aire Comprimido                           | Descripción de compresores eléctricos independientes y su operación.        |
+| PDN-GAIA-36-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistema de Aire Comprimido               | Procedimientos para inspeccionar compresores, filtros y verificar válvulas.  |
+| DDN-GAIA-36-10-00-01-00-A | Descriptivo (DDN)      | Aplicaciones Neumáticas                              | Descripción de sistemas de arranque del motor y operación de puertas y sellos mediante mecanismos neumáticos. |
+| PDN-GAIA-36-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Aplicaciones Neumáticas                  | Procedimientos para revisar actuadores neumáticos y probar presión y estanqueidad en sistemas. |
+
+---
+
+### **ATA 37 - Sistema de Vacío**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-37-00-00-01-00-A | Descriptivo (DDN)      | Generación de Vacío                                 | Descripción de bombas de vacío eléctricas y sistemas redundantes para continuidad del servicio. |
+| PDN-GAIA-37-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Generación de Vacío                     | Procedimientos para inspeccionar bombas, filtros y verificar líneas y conexiones para detectar fugas. |
+| DDN-GAIA-37-10-00-01-00-A | Descriptivo (DDN)      | Distribución y Aplicaciones                           | Descripción de instrumentación analógica y sistemas de asistencia que requieren presión negativa. |
+| PDN-GAIA-37-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Distribución y Aplicaciones               | Procedimientos para revisar tuberías, válvulas y realizar pruebas de presión y estanqueidad en sistemas conectados. |
+
+---
+
+### **ATA 38 - Agua y Desechos**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-38-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Agua Potable                             | Descripción de tanques de almacenamiento higiénicos y sistemas de filtración y purificación de agua. |
+| PDN-GAIA-38-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Agua Potable                 | Procedimientos para limpiar y desinfectar tanques, y reemplazar filtros de purificación. |
+| DDN-GAIA-38-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Desechos                                   | Descripción de sistemas de vacío para desechos y tanques seguros para prevención de fugas y olores. |
+| PDN-GAIA-38-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Desechos                       | Procedimientos para vaciar, limpiar tanques y verificar válvulas y sellos.     |
+
+---
+
+### **ATA 40 - Prácticas Estándar - Eléctricas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-40-00-00-01-00-A | Descriptivo (DDN)      | Instalación de Sistemas Eléctricos                     | Normas para cableado, conexiones eléctricas y selección de componentes y materiales. |
+| PDN-GAIA-40-00-00-01-01-A | Procedimental (PDN)    | Procedimientos de Instalación Eléctrica                  | Procedimientos detallados para la instalación correcta y segura de sistemas eléctricos. |
+| DDN-GAIA-40-10-00-01-00-A | Descriptivo (DDN)      | Pruebas y Verificaciones                              | Descripción de procedimientos de prueba de aislamiento, continuidad y calibración de equipos eléctricos. |
+| PDN-GAIA-40-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Pruebas y Verificaciones                  | Procedimientos para realizar pruebas de aislamiento, continuidad y calibración periódica de equipos eléctricos. |
+
+---
+
+### **ATA 42 - Aviónica Modular Integrada**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-42-00-00-01-00-A | Descriptivo (DDN)      | Arquitectura del Sistema IMA                        | Descripción de la arquitectura de la Aviónica Modular Integrada, incluyendo módulos estándar y redes de datos avanzadas. |
+| PDN-GAIA-42-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Arquitectura IMA                       | Procedimientos para actualizar software de módulos individuales y reemplazar módulos defectuosos. |
+| DDN-GAIA-42-10-00-01-00-A | Descriptivo (DDN)      | Gestión y Supervisión del Sistema IMA                  | Descripción de sistemas de monitoreo integrado y reconfiguración automática en caso de fallas. |
+| PDN-GAIA-42-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Gestión y Supervisión IMA               | Procedimientos para verificar logs, actualizar software y realizar pruebas de funcionalidad del sistema de supervisión. |
+
+---
+
+### **ATA 44 - Sistemas de Cabina**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-44-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Entretenimiento a Bordo (IFE)             | Descripción de pantallas individuales de alta definición y conectividad inalámbrica para dispositivos de pasajeros. |
+| PDN-GAIA-44-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Entretenimiento a Bordo (IFE) | Procedimientos para actualizar contenido, verificar conectividad y mantener la funcionalidad de pantallas y controles. |
+| DDN-GAIA-44-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Conectividad                            | Descripción de internet a bordo, servicios de telefonía y mensajería durante el vuelo. |
+| PDN-GAIA-44-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Conectividad                  | Procedimientos para probar velocidad, estabilidad de conexión y actualizar equipos de red y seguridad informática. |
+
+---
+
+### **ATA 45 - Sistema Central de Mantenimiento**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-45-00-00-01-00-A | Descriptivo (DDN)      | Monitoreo y Diagnóstico                              | Descripción de la recopilación de datos en tiempo real y sistemas de alertas para el personal de mantenimiento. |
+| PDN-GAIA-45-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Monitoreo y Diagnóstico                  | Procedimientos para verificar la integridad de bases de datos y actualizar software de diagnóstico. |
+| DDN-GAIA-45-10-00-01-00-A | Descriptivo (DDN)      | Interfaces de Usuario                                 | Descripción de terminales de mantenimiento y conectividad remota para acceso y diagnóstico. |
+| PDN-GAIA-45-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Interfaces de Usuario                      | Procedimientos para probar conectividad, asegurar seguridad de acceso y capacitar en el uso de interfaces. |
+
+---
+
+### **ATA 46 - Sistemas de Información**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-46-00-00-01-00-A | Descriptivo (DDN)      | Sistemas Electrónicos de Vuelo                       | Descripción de Electronic Flight Bags (EFB) y aplicaciones de planificación y navegación. |
+| PDN-GAIA-46-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas Electrónicos de Vuelo           | Procedimientos para actualizar bases de datos, verificar integridad y compatibilidad de aplicaciones. |
+| DDN-GAIA-46-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Información de Mantenimiento                   | Descripción de documentación electrónica y registro de mantenimiento digitalizado. |
+| PDN-GAIA-46-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Información de Mantenimiento        | Procedimientos para respaldar y asegurar datos, y actualizar documentación y procedimientos electrónicos. |
+
+---
+
+### **ATA 47 - Sistema de Generación de Nitrógeno**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-47-00-00-01-00-A | Descriptivo (DDN)      | Sistema de Generación de Nitrógeno                        | Descripción de sistemas para generar nitrógeno utilizado en inertización de tanques de combustible y inflado de neumáticos. |
+| PDN-GAIA-47-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistema de Generación de Nitrógeno          | Procedimientos para inspeccionar y reemplazar filtros y membranas, y realizar pruebas de pureza y flujo de nitrógeno. |
+
+---
+
+### **ATA 49 - Potencia Auxiliar**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-49-00-00-01-00-A | Descriptivo (DDN)      | Unidad de Potencia Auxiliar                             | Descripción del APU de baja emisión, su diseño para minimizar impacto ambiental y operación automática. |
+| PDN-GAIA-49-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Unidad de Potencia Auxiliar                | Procedimientos para inspeccionar componentes mecánicos y eléctricos del APU, y verificar sistemas de control y protección. |
+| DDN-GAIA-49-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Control del APU                              | Descripción de sistemas electrónicos avanzados para el arranque, operación y apagado seguros del APU. |
+| PDN-GAIA-49-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Control del APU                  | Procedimientos para actualizar software, probar funcionalidades y verificar sistemas de seguridad en el APU. |
+
+---
+
+### **ATA 50 - Compartimentos de Carga y Accesorios**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-50-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Carga                                  | Descripción de mecanismos de carga y descarga, y sistemas de sujeción y aseguramiento de cargas. |
+| PDN-GAIA-50-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Carga                          | Procedimientos para inspeccionar mecanismos de carga, verificar sistemas de sujeción y asegurar seguridad de cargas. |
+| DDN-GAIA-50-10-00-01-00-A | Descriptivo (DDN)      | Control Ambiental en Compartimentos de Carga             | Descripción de sistemas de ventilación y control de temperatura para cargas sensibles. |
+| PDN-GAIA-50-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Control Ambiental en Compartimentos de Carga | Procedimientos para verificar sistemas de ventilación, monitorear condiciones ambientales y realizar ajustes necesarios. |
+
+---
+
+### **ATA 51 - Estructuras Estándar**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-51-00-00-01-00-A | Descriptivo (DDN)      | Materiales y Procesos Aprobados                        | Descripción de materiales compuestos avanzados y técnicas de reparación estructural. |
+| PDN-GAIA-51-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Materiales y Procesos Aprobados            | Procedimientos para aplicar técnicas de reparación específicas y controlar calidad en procesos de mantenimiento. |
+| DDN-GAIA-51-10-00-01-00-A | Descriptivo (DDN)      | Protección contra la Corrosión                             | Descripción de recubrimientos protectores y técnicas para prevenir corrosión en estructuras aeronáuticas. |
+| PDN-GAIA-51-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Protección contra la Corrosión                  | Procedimientos para inspeccionar, aplicar y reaplicar recubrimientos protectores, y realizar inspecciones regulares para detectar corrosión. |
+
+---
+
+### **ATA 52 - Puertas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-52-00-00-01-00-A | Descriptivo (DDN)      | Puertas de Pasajeros                                   | Descripción de mecanismos automáticos de apertura y cierre, y sistemas de seguridad en puertas de pasajeros. |
+| PDN-GAIA-52-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Puertas de Pasajeros                      | Procedimientos para inspeccionar mecanismos, verificar sellos y sistemas de emergencia en puertas de pasajeros. |
+| DDN-GAIA-52-10-00-01-00-A | Descriptivo (DDN)      | Puertas de Carga                                       | Descripción de sistemas de seguridad, sensores para evitar operaciones inseguras y mecanismos de apertura. |
+| PDN-GAIA-52-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Puertas de Carga                           | Procedimientos para revisar sistemas de bloqueo, actuadores y controles en puertas de carga. |
+
+---
+
+### **ATA 53 - Fuselaje**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-53-00-00-01-00-A | Descriptivo (DDN)      | Estructura del Fuselaje                                 | Descripción de la estructura principal del fuselaje, incluyendo diseño monocasco y materiales compuestos. |
+| PDN-GAIA-53-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Estructura del Fuselaje                     | Procedimientos para inspecciones no destructivas (END) y reparaciones en materiales compuestos. |
+| DDN-GAIA-53-10-00-01-00-A | Descriptivo (DDN)      | Revestimientos y Paneles                                 | Descripción de paneles modulares y sistemas de revestimiento para facilitar mantenimiento y reparaciones. |
+| PDN-GAIA-53-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Revestimientos y Paneles                     | Procedimientos para reemplazar paneles dañados y verificar uniones y sellos en revestimientos. |
+
+---
+
+### **ATA 54 - Nacelas/Pilonas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-54-00-00-01-00-A | Descriptivo (DDN)      | Estructuras de Soporte de Nacelas y Pilonas           | Descripción de las estructuras de soporte que alojan los motores, incluyendo materiales y diseño aerodinámico. |
+| PDN-GAIA-54-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Estructuras de Soporte                  | Procedimientos para la inspección, limpieza y reparación de las estructuras de soporte de nacelas y pilonas. |
+| DDN-GAIA-54-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Aislamiento de Vibraciones                   | Información sobre los sistemas de amortiguación y aislamiento utilizados para reducir vibraciones transmitidas al fuselaje. |
+| PDN-GAIA-54-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Aislamiento                 | Procedimientos para la inspección, prueba y reemplazo de componentes de aislamiento de vibraciones. |
+
+---
+
+### **ATA 55 - Estabilizadores**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-55-00-00-01-00-A | Descriptivo (DDN)      | Estabilizador Horizontal                               | Descripción de la estructura y funcionamiento del estabilizador horizontal, incluyendo elevadores y sistemas asociados. |
+| PDN-GAIA-55-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Estabilizador Horizontal                   | Procedimientos para la inspección, ajuste y reparación del estabilizador horizontal y sus componentes. |
+| DDN-GAIA-55-10-00-01-00-A | Descriptivo (DDN)      | Estabilizador Vertical                                 | Descripción de la estructura y funcionamiento del estabilizador vertical, incluyendo el timón de dirección. |
+| PDN-GAIA-55-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Estabilizador Vertical                   | Procedimientos para la inspección, ajuste y reparación del estabilizador vertical y sus componentes. |
+
+---
+
+### **ATA 56 - Ventanas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-56-00-00-01-00-A | Descriptivo (DDN)      | Ventanas de la Cabina de Vuelo                           | Descripción de las ventanas en la cabina de vuelo, incluyendo materiales, sistemas de calefacción y antiempañamiento. |
+| PDN-GAIA-56-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Ventanas de Cabina de Vuelo                  | Procedimientos para la inspección, limpieza y reparación de las ventanas de la cabina de vuelo. |
+| DDN-GAIA-56-10-00-01-00-A | Descriptivo (DDN)      | Ventanas de Pasajeros                                    | Descripción de las ventanas para pasajeros, incluyendo sistemas de control de opacidad y mecanismos de apertura. |
+| PDN-GAIA-56-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Ventanas de Pasajeros                       | Procedimientos para la inspección, limpieza y reparación de las ventanas de pasajeros. |
+
+---
+
+### **ATA 57 - Alas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-57-00-00-01-00-A | Descriptivo (DDN)      | Estructura del Ala                                        | Descripción de la estructura principal de las alas, incluyendo materiales compuestos y diseño aerodinámico. |
+| PDN-GAIA-57-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Estructura del Ala                         | Procedimientos para inspeccionar, limpiar y reparar la estructura del ala. |
+| DDN-GAIA-57-10-00-01-00-A | Descriptivo (DDN)      | Superficies Móviles del Ala                                   | Información sobre flaps, alerones y otros dispositivos de control aerodinámico en las alas. |
+| PDN-GAIA-57-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Superficies Móviles del Ala                     | Procedimientos para la inspección, ajuste y reparación de las superficies móviles del ala. |
+
+---
+
+### **ATA 71 - Planta Motriz**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-71-00-00-01-00-A | Descriptivo (DDN)      | Instalación del Motor                                     | Descripción de soportes modulares y procedimientos para la instalación y alineación de motores. |
+| PDN-GAIA-71-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Instalación del Motor                        | Procedimientos para inspeccionar puntos de fijación y verificar sistemas de conexión. |
+| DDN-GAIA-71-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Vibración                                       | Descripción de amortiguadores y aisladores para reducir vibraciones transmitidas al fuselaje. |
+| PDN-GAIA-71-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Vibración                        | Procedimientos para reemplazar componentes de amortiguación y monitorear niveles de vibración. |
+
+---
+
+### **ATA 72 - Motores**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-72-00-00-01-00-A | Descriptivo (DDN)      | Mantenimiento del Motor                                 | Descripción de programas de mantenimiento basados en condición y procedimientos de inspección interna mediante boroscopía. |
+| PDN-GAIA-72-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento Preventivo del Motor                            | Procedimientos para inspeccionar, analizar rendimiento y realizar cambios de componentes según desgaste. |
+| DDN-GAIA-72-10-00-01-00-A | Descriptivo (DDN)      | Componentes Principales del Motor                           | Descripción de compresores, turbinas y combustores, y su funcionamiento dentro del motor. |
+| PDN-GAIA-72-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Componentes Principales del Motor               | Procedimientos para revisar, reemplazar y equilibrar componentes rotativos y realizar alineaciones necesarias. |
+
+---
+
+### **ATA 73 - Sistema de Combustible del Motor**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-73-00-00-01-00-A | Descriptivo (DDN)      | Bombas y Válvulas de Combustible                           | Descripción de bombas de alta presión y válvulas utilizadas en el sistema de combustible del motor. |
+| PDN-GAIA-73-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Bombas y Válvulas de Combustible           | Procedimientos para verificar caudales, presiones y realizar inspecciones de válvulas y sellos. |
+| DDN-GAIA-73-10-00-01-00-A | Descriptivo (DDN)      | Inyectores de Combustible                                 | Descripción de inyectores de precisión y su papel en la atomización eficiente del combustible. |
+| PDN-GAIA-73-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Inyectores de Combustible                     | Procedimientos para limpiar, calibrar y reemplazar inyectores según desgaste o fallos. |
+
+---
+
+### **ATA 74 - Ignición**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-74-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Ignición                                    | Descripción de sistemas de ignición por plasma y encendedores de estado sólido utilizados en los motores. |
+| PDN-GAIA-74-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Ignición                        | Procedimientos para inspeccionar, limpiar y verificar componentes de ignición como electrodos y cables de alta tensión. |
+| DDN-GAIA-74-10-00-01-00-A | Descriptivo (DDN)      | Controles y Supervisión de Ignición                           | Descripción de sistemas de control electrónico que gestionan la secuencia de encendido y monitorean el rendimiento de la ignición. |
+| PDN-GAIA-74-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Controles y Supervisión de Ignición                   | Procedimientos para actualizar software de control, diagnosticar fallos y calibrar sensores en sistemas de supervisión de ignición. |
+
+---
+
+### **ATA 75 - Aire de Sangrado del Motor**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-75-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Extracción de Aire de Sangrado               | Descripción de válvulas de control de sangrado y sistemas de enfriamiento del aire extraído de los motores. |
+| PDN-GAIA-75-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Extracción de Aire de Sangrado | Procedimientos para inspeccionar válvulas de control, intercambiadores de calor y sistemas de aislamiento térmico. |
+| DDN-GAIA-75-10-00-01-00-A | Descriptivo (DDN)      | Distribución y Uso del Aire de Sangrado                      | Descripción de la distribución del aire de sangrado a sistemas de aire acondicionado, presurización y sistemas antihielo. |
+| PDN-GAIA-75-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Distribución y Uso del Aire de Sangrado         | Procedimientos para revisar conductos, verificar sellos y realizar pruebas de flujo y presión en sistemas que utilizan aire de sangrado. |
+
+---
+
+### **ATA 76 - Controles del Motor**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-76-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Control Electrónico del Motor (FADEC)            | Descripción de los sistemas FADEC que gestionan el rendimiento y operación segura de los motores mediante algoritmos avanzados de IA. |
+| PDN-GAIA-76-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas FADEC                            | Procedimientos para actualizar software, verificar redundancias y realizar pruebas de respuesta de los sistemas FADEC. |
+| DDN-GAIA-76-10-00-01-00-A | Descriptivo (DDN)      | Interfaces y Sensores de Control del Motor                   | Descripción de sensores de temperatura, presión y flujo, y las interfaces hombre-máquina para monitoreo y ajustes. |
+| PDN-GAIA-76-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Interfaces y Sensores de Control del Motor       | Procedimientos para calibrar, limpiar y verificar sensores, y actualizar interfaces y software de monitoreo. |
+
+---
+
+### **ATA 77 - Indicaciones del Motor**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-77-00-00-01-00-A | Descriptivo (DDN)      | Instrumentación del Motor                               | Descripción de instrumentos digitales y sistemas de alerta que proporcionan información en tiempo real sobre el estado y rendimiento de los motores. |
+| PDN-GAIA-77-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Instrumentación del Motor                   | Procedimientos para verificar integridad de datos, actualizar interfaces y software, y reparar sistemas de alerta y monitoreo. |
+| DDN-GAIA-77-10-00-01-00-A | Descriptivo (DDN)      | Sistemas de Registro y Análisis de Datos del Motor           | Descripción de registradores de datos del motor y herramientas de diagnóstico para analizar tendencias y rendimiento. |
+| PDN-GAIA-77-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Registro y Análisis de Datos     | Procedimientos para descargar y revisar datos, calibrar sistemas de registro y probar herramientas de diagnóstico. |
+
+---
+
+### **ATA 78 - Escape**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-78-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Escape                                      | Descripción de sistemas de escape de los motores, incluyendo toberas de escape variables y materiales refractarios avanzados para reducir peso y ruido. |
+| PDN-GAIA-78-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Escape                      | Procedimientos para inspeccionar fisuras, deformaciones y verificar sistemas de ajuste de toberas de escape. |
+| DDN-GAIA-78-10-00-01-00-A | Descriptivo (DDN)      | Reducción de Ruido y Emisiones                           | Descripción de silenciadores y catalizadores utilizados para disminuir ruido y reducir emisiones contaminantes como NOx y CO. |
+| PDN-GAIA-78-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Reducción de Ruido y Emisiones          | Procedimientos para limpiar y reemplazar elementos catalíticos, y verificar componentes acústicos. |
+
+---
+
+### **ATA 79 - Sistema de Aceite**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-79-00-00-01-00-A | Descriptivo (DDN)      | Suministro y Circulación de Aceite                     | Descripción de bombas de aceite de alta eficiencia y enfriadores de aceite para mantener temperaturas óptimas. |
+| PDN-GAIA-79-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Suministro y Circulación de Aceite           | Procedimientos para cambiar aceite, inspeccionar líneas y conexiones por fugas, y verificar enfriadores de aceite. |
+| DDN-GAIA-79-10-00-01-00-A | Descriptivo (DDN)      | Filtración y Monitoreo de Aceite                         | Descripción de sistemas de filtración de aceite y sensores de calidad para detectar partículas y degradación del aceite. |
+| PDN-GAIA-79-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Filtración y Monitoreo de Aceite             | Procedimientos para reemplazar filtros, calibrar sensores y verificar alertas de calidad de aceite. |
+
+---
+
+### **ATA 80 - Arranque**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-80-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Arranque Eléctrico                        | Descripción de motores de arranque eléctricos de alta potencia y sistemas automatizados de secuencia de arranque. |
+| PDN-GAIA-80-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Arranque Eléctrico            | Procedimientos para inspeccionar conexiones eléctricas, probar funcionamiento y verificar tiempos de respuesta de sistemas de arranque. |
+| DDN-GAIA-80-10-00-01-00-A | Descriptivo (DDN)      | Controles y Secuencias de Arranque                         | Descripción de sistemas automatizados que gestionan la secuencia de arranque, incluyendo interlocks y protocolos de seguridad. |
+| PDN-GAIA-80-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Controles y Secuencias de Arranque              | Procedimientos para actualizar software de control, verificar interlocks y realizar pruebas de seguridad en secuencias de arranque. |
+
+---
+
+### **ATA 81 - Turboalimentación**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-81-00-00-01-00-A | Descriptivo (DDN)      | Sistemas de Turboalimentación                           | Descripción de turbocompresores utilizados para mejorar rendimiento y eficiencia de los motores, y reducción de emisiones. |
+| PDN-GAIA-81-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Turboalimentación                   | Procedimientos para inspeccionar, limpiar y balancear turbinas y compresores, y verificar sistemas de control y monitoreo. |
+| DDN-GAIA-81-10-00-01-00-A | Descriptivo (DDN)      | Beneficios en Rendimiento y Eficiencia                     | Información sobre cómo los sistemas de turboalimentación mejoran el rendimiento del motor, optimizan consumo de combustible y reducen emisiones contaminantes. |
+| PDN-GAIA-81-10-00-01-01-A | Procedimental (PDN)    | Optimización y Calibración de Turboalimentación                  | Procedimientos para calibrar sistemas de turboalimentación y optimizar parámetros operativos para maximizar eficiencia y minimizar desgaste. |
+
+---
+
+### **ATA 94 - Sistema de Gestión de Carga Eléctrica**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-94-00-00-01-00-A | Descriptivo (DDN)      | Distribución y Control de Energía Eléctrica                | Descripción de sistemas avanzados para la distribución y control de cargas eléctricas críticas y no críticas. |
+| PDN-GAIA-94-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Distribución y Control de Energía Eléctrica    | Procedimientos para inspeccionar paneles de distribución, probar interruptores y sistemas de protección, y actualizar firmware de paneles inteligentes. |
+| DDN-GAIA-94-10-00-01-00-A | Descriptivo (DDN)      | Optimización del Consumo Energético                         | Técnicas y tecnologías utilizadas para optimizar el consumo energético, incluyendo gestión inteligente de cargas y recuperación de energía. |
+| PDN-GAIA-94-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Optimización Energética              | Procedimientos para verificar algoritmos de gestión de energía, calibrar sensores y probar eficiencia energética en sistemas de optimización. |
+
+---
+
+### **ATA 96 - Recolección de Datos de Vuelo**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-96-00-00-01-00-A | Descriptivo (DDN)      | Registradores de Vuelo                                     | Descripción de Flight Data Recorders (FDR) y Cockpit Voice Recorders (CVR), incluyendo funciones, normativas y requisitos de almacenamiento. |
+| PDN-GAIA-96-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Registradores de Vuelo                        | Procedimientos para descargar, analizar y almacenar datos de registradores de vuelo, y verificar su funcionamiento. |
+| DDN-GAIA-96-10-00-01-00-A | Descriptivo (DDN)      | Transmisión de Datos en Tiempo Real                             | Descripción de sistemas de transmisión de datos de vuelo en tiempo real, incluyendo encriptación y seguridad de los datos transmitidos. |
+| PDN-GAIA-96-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Sistemas de Transmisión de Datos en Tiempo Real | Procedimientos para probar sistemas de transmisión, verificar protocolos de encriptación y actualizar software de transmisión de datos. |
+
+---
+
+### **ATA 97 - Sistemas de Control de Vuelo Mejorados**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-97-00-00-01-00-A | Descriptivo (DDN)      | Fly-by-Light y Sistemas de Control Avanzados                | Descripción de tecnologías avanzadas como Fly-by-Light y sistemas de control basados en fibra óptica. |
+| PDN-GAIA-97-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Fly-by-Light y Sistemas de Control Avanzados | Procedimientos para manejar y reparar fibras ópticas, y realizar pruebas de integridad y señal en sistemas de control avanzados. |
+
+---
+
+### **ATA 98 - Sistemas para Aeronaves No Tripuladas**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-98-00-00-01-00-A | Descriptivo (DDN)      | Modos Autónomos de Operación                             | Descripción de funciones autónomas de la aeronave, incluyendo capacidades de vuelo autónomo y sistemas de toma de decisiones basados en IA. |
+| PDN-GAIA-98-00-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Modos Autónomos                          | Procedimientos para inspeccionar, probar y actualizar sistemas autónomos, asegurando su funcionamiento seguro y eficiente. |
+| DDN-GAIA-98-10-00-01-00-A | Descriptivo (DDN)      | Comunicaciones y Enlace de Datos para Operaciones Remotas | Descripción de sistemas de control remoto y enlaces de datos utilizados para operar y monitorear la aeronave de manera remota. |
+| PDN-GAIA-98-10-00-01-01-A | Procedimental (PDN)    | Mantenimiento de Comunicaciones y Enlace de Datos Remotos | Procedimientos para verificar la integridad de los enlaces de datos, probar comunicaciones remotas y actualizar sistemas de seguridad cibernética. |
+
+---
+
+### **ATA 99 - Miscelánea**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-99-00-00-01-00-A | Descriptivo (DDN)      | Información Adicional y Específica                         | Información adicional que no encaja en otros capítulos ATA, incluyendo innovaciones tecnológicas y aspectos específicos del GAIA-AIR: A360XWLRGA. |
+| PDN-GAIA-99-00-00-01-01-A | Procedimental (PDN)    | Procedimientos Adicionales y Específicos                     | Procedimientos para gestionar y mantener información adicional, asegurando su integración coherente con el resto del manual. |
+
+---
+
+## **Tipos Adicionales de Data Modules según S1000D**
+
+Además de los **Descriptivos (DDN)** y **Procedimentales (PDN)**, la especificación **S1000D** define otros tipos de **Data Modules** esenciales para una documentación técnica completa y coherente:
+
+### **1. Módulos de Datos de Soporte Logístico (LDN - Logistics Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-LDN-00-00-01-00-A | Logístico (LDN)        | Gestión de Inventarios de Repuestos        | Descripción de los procedimientos para gestionar inventarios de repuestos, incluyendo niveles mínimos y máximos. |
+| PDN-GAIA-LDN-00-00-01-01-A | Logístico (LDN)        | Procedimientos de Pedido de Repuestos      | Procedimientos para solicitar y reabastecer repuestos necesarios para el mantenimiento. |
+
+### **2. Módulos de Datos de Catálogo de Piezas Ilustradas (IPD - Illustrated Parts Catalog Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-IPD-00-00-01-00-A | Catálogo de Piezas (IPD) | Catálogo de Piezas del Motor               | Ilustraciones detalladas y descripciones de todas las piezas del motor, facilitando la identificación y reemplazo. |
+| PDN-GAIA-IPD-00-00-01-01-A | Catálogo de Piezas (IPD) | Procedimientos para Uso del Catálogo       | Instrucciones sobre cómo utilizar el catálogo de piezas para localizar y ordenar repuestos. |
+
+### **3. Módulos de Datos de Seguridad (SDM - Safety Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-SDM-00-00-01-00-A | Seguridad (SDM)        | Procedimientos de Seguridad en Mantenimiento | Descripción de las medidas de seguridad necesarias durante las actividades de mantenimiento para proteger al personal y a la aeronave. |
+| PDN-GAIA-SDM-00-00-01-01-A | Seguridad (SDM)        | Uso de Equipos de Protección Personal (EPP) | Procedimientos para el uso adecuado de EPP durante las tareas de mantenimiento. |
+
+### **4. Módulos de Datos de Cambio (CDM - Change Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-CDM-00-00-01-00-A | Cambio (CDM)           | Notificaciones de Cambios en Sistemas       | Descripción de cambios recientes en sistemas o procedimientos de mantenimiento, incluyendo razones y efectos esperados. |
+| PDN-GAIA-CDM-00-00-01-01-A | Cambio (CDM)           | Procedimientos para Implementar Cambios     | Procedimientos detallados para aplicar y verificar cambios en los sistemas según las notificaciones de cambios. |
+
+### **5. Módulos de Datos de Pruebas (TDM - Test Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-TDM-00-00-01-00-A | Pruebas (TDM)          | Procedimientos de Pruebas de Funcionamiento | Descripción de los procedimientos para realizar pruebas de funcionamiento en sistemas específicos, asegurando su correcta operación. |
+| PDN-GAIA-TDM-00-00-01-01-A | Pruebas (TDM)          | Mantenimiento de Equipos de Prueba          | Procedimientos para calibrar y mantener los equipos utilizados en las pruebas de funcionamiento. |
+
+### **6. Módulos de Datos de Referencia (RDM - Reference Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-RDM-00-00-01-00-A | Referencia (RDM)       | Normativas y Regulaciones Aplicables       | Compendio de todas las normativas y regulaciones aeronáuticas que aplican al mantenimiento y operación de la aeronave. |
+| PDN-GAIA-RDM-00-00-01-01-A | Referencia (RDM)       | Procedimientos para Cumplimiento Normativo | Procedimientos detallados para asegurar el cumplimiento de las normativas y regulaciones mencionadas. |
+
+### **7. Módulos de Datos de Diagramas Técnicos (DDN - Technical Diagrams Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-DDN-00-00-01-00-A | Diagramas Técnicos (DDN) | Diagramas de Sistema de Combustible         | Diagramas detallados del sistema de combustible, incluyendo tuberías, válvulas y componentes principales. |
+| PDN-GAIA-DDN-00-00-01-01-A | Diagramas Técnicos (DDN) | Procedimientos para Interpretar Diagramas  | Instrucciones sobre cómo interpretar y utilizar los diagramas técnicos para el mantenimiento y diagnóstico. |
+
+### **8. Módulos de Datos de Procedimientos Especiales (SPDM - Special Procedural Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-SPDM-00-00-01-00-A | Procedimientos Especiales (SPDM) | Procedimientos de Emergencia               | Descripción de los procedimientos a seguir en situaciones de emergencia durante el mantenimiento o operación. |
+| PDN-GAIA-SPDM-00-00-01-01-A | Procedimientos Especiales (SPDM) | Simulaciones de Emergencia                 | Procedimientos para realizar simulaciones y entrenamientos de emergencia para el personal de mantenimiento. |
+
+### **9. Módulos de Datos de Actualizaciones de Software (SWDM - Software Data Module)**
+
+| Código S1000D             | Tipo de Módulo         | Título                                     | Descripción                                                                 |
+|---------------------------|------------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| DDN-GAIA-SWDM-00-00-01-00-A | Software (SWDM)        | Actualizaciones de Firmware de Sistemas     | Descripción de las versiones de firmware actuales y las actualizaciones disponibles para diferentes sistemas de la aeronave. |
+| PDN-GAIA-SWDM-00-00-01-01-A | Software (SWDM)        | Procedimientos para Actualizar Firmware     | Procedimientos detallados para la descarga, instalación y verificación de actualizaciones de firmware en los sistemas correspondientes. |
+
+---
+
+## **Resumen de Data Modules Necesarios**
+
+Para asegurar una **documentación completa y conforme a S1000D** en el manual de mantenimiento, se recomienda incluir los siguientes tipos de Data Modules:
+
+1. **Descriptivo (DDN)**: Descripciones detalladas de sistemas, componentes y procedimientos operativos.
+2. **Procedimental (PDN)**: Instrucciones paso a paso para realizar tareas de mantenimiento y operación.
+3. **Logístico (LDN)**: Gestión de inventarios, pedidos y logística de repuestos.
+4. **Catálogo de Piezas (IPD)**: Ilustraciones y listas detalladas de partes y componentes.
+5. **Seguridad (SDM)**: Procedimientos de seguridad y uso de equipos de protección personal.
+6. **Cambio (CDM)**: Notificaciones y procedimientos para implementar cambios en sistemas y procedimientos.
+7. **Pruebas (TDM)**: Procedimientos de pruebas de funcionamiento y mantenimiento de equipos de prueba.
+8. **Referencia (RDM)**: Normativas, regulaciones y procedimientos para su cumplimiento.
+9. **Diagramas Técnicos (DDN)**: Diagramas detallados de sistemas específicos.
+10. **Procedimientos Especiales (SPDM)**: Procedimientos de emergencia y simulaciones.
+11. **Software (SWDM)**: Actualizaciones y mantenimiento de software de sistemas.
+
+---
+
+## **Próximos Pasos**
+
+1. **Identificar Necesidades Específicas**:
+   - Revisa cada sistema y componente del GAIA-AIR: A360XWLRGA para determinar qué tipos adicionales de Data Modules son necesarios.
+
+2. **Desarrollar Módulos Específicos**:
+   - Crea módulos para cada tipo identificado, asegurando que cada uno cumpla con las especificaciones de S1000D.
+
+3. **Integrar Diagramas e Ilustraciones**:
+   - Incorpora diagramas técnicos, ilustraciones y listas de piezas en los Data Modules correspondientes para mejorar la comprensión y facilidad de uso.
+
+4. **Revisión y Validación Técnica**:
+   - Solicita a especialistas en mantenimiento que revisen los módulos para asegurar que todos los procedimientos de reparaciones y operaciones estén correctamente documentados y cumplan con las normativas.
+
+5. **Publicación y Capacitación**:
+   - Publica los módulos en el sistema i-CSDB y organiza sesiones de capacitación para el personal de mantenimiento sobre el uso y actualización de los nuevos Data Modules.
+
+6. **Establecer un Proceso de Actualización Continua**:
+   - Implementa un calendario regular para revisar y actualizar todos los Data Modules, incorporando nuevas tecnologías, cambios en procedimientos y actualizaciones normativas.
+
+---
+
+## **Conclusión**
+
+Este **Índice Completo de Módulos de Datos** proporciona una estructura organizada y detallada para la documentación técnica necesaria en el **Manual de Mantenimiento del GAIA-AIR: A360XWLRGA**. Al seguir este índice, se facilita el acceso rápido a la información crítica, mejora la eficiencia operativa y garantiza la seguridad del personal de mantenimiento y de la aeronave.
+
+**¡Comencemos el desarrollo detallado de cada módulo ATA para construir un manual de mantenimiento integral y de alta calidad!** 🚀✈️
+
+---
+
+Si necesitas asistencia adicional para desarrollar módulos específicos de algún capítulo ATA, o tienes alguna otra consulta sobre cómo estructurar ciertos módulos, por favor, indícalo y procederé a ayudarte de la mejor manera posible.
