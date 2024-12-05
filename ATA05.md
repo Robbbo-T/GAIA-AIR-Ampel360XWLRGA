@@ -84,6 +84,7 @@ Es imperativo seguir los procedimientos establecidos para el reemplazo de compon
 | DDN-GAIA-05-20-00-01-00-A     | Descriptivo (DDN)          | Vida Útil de Componentes                    | Listado de componentes con límites de vida útil y criterios de reemplazo.   |
 | PDN-GAIA-05-20-00-01-01-A     | Procedimental (PDN)        | Reemplazo y Registro de Componentes          | Procedimientos para el reemplazo de componentes y el registro de intervenciones. |
 
+````
 ---
 
 ### **Data Module: PDN-GAIA-05-00-00-01-01-A**
