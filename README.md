@@ -2,7 +2,7 @@
 ## AMPEL360 Extra Wide Body Long Range Green AIRCRAFT
 
 ```mermaid
-[graph TD
+graph TD
     A[A360XWLRGA Long-Range Aircraft Overview]
     A --> B[Diffusp Concept (Zer0 Emissions, Hydrogen-based)]
     
@@ -53,7 +53,7 @@
     %% Optional: Styling Nodes for Better Visualization
     classDef tech fill:#f9f,stroke:#333,stroke-width:2px;
     class C,D,E,F,G,H tech;
-]
+
 
 
 Below is the updated **Integral Document for the GAIA AIR Program**. In this version, the Data Module Codes (DMCs) have been assigned in compliance with S1000D standards, while maintaining compatibility with legacy ATA references as previously validated. The final DMC format incorporates:
