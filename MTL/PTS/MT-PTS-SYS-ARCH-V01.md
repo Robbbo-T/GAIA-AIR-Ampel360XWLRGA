@@ -43,22 +43,55 @@ This token provides a standard method to create and document system architecture
 
 2. **Create the STE Prompt and Digital Analogy:**  
    Write a prompt in STE. Describe nodes, flows, and relationships.  
-   Example:  
-   ```
-   [FUNCTIONAL DESCRIPTION - STE]
-   SYSTEM: Hydrogen Propulsion
-   PURPOSE: Generate electrical power from green hydrogen
-   LIMITS: Continuous power = 2 MW, Temperature = -253°C
-   FLOWS: Hydrogen from tank -> Fuel Cell -> Electric Motor -> Power Bus
-   ```
+   Example:
+   
 
-3. **Generate the Mermaid Diagram:**  
+    %% This diagram shows a simple flow of resources from the Hydrogen Tank 
+    %% through the Fuel Cell, then the Electric Motor, and finally to the Power Bus.
+
+   flowchart TD
+    A[Hydrogen Tank] -->|H₂ Supply| B[Fuel Cell]
+    B -->|Electricity| C[Electric Motor]
+    C -->|Power Output| D[Power Bus]
+
+4. **Generate the Mermaid Diagram:**  
    Use the prompt to create a Mermaid diagram. You can do this manually or with GenAI suggestions.
 
    
-   Example Diagram:
- graph LR
+Below is a clean, consolidated version of the provided Mermaid diagrams and instructions. It presents two examples:
+
+1. A simple top-down flowchart showing hydrogen supply through various components.
+2. A more detailed left-right graph with subsystems (Propulsion System and Sensor/IoT Subsystem).
+
+Both are in Mermaid syntax, ready to be edited in any Mermaid-compatible tool.
+
+---
+
+### Example 1: Simple Flowchart (Top-Down)
+
+This diagram shows a simple flow of resources from the Hydrogen Tank through the Fuel Cell, then the Electric Motor, and finally to the Power Bus.
+
+```mermaid
+%% Simple Flow (Top-Down)
+flowchart TD
+    A[Hydrogen Tank] -->|H₂ Supply| B[Fuel Cell]
+    B -->|Electricity| C[Electric Motor]
+    C -->|Power Output| D[Power Bus]
 ```
+
+**Notes:**  
+- The arrow labels clearly indicate what each transition represents.
+- The layout is top-down (TD) for a straightforward, vertical flow.
+
+---
+
+### Example 2: Detailed Diagram with Subsystems (Left-Right)
+
+Below is a more complex diagram, including subsystems for propulsion and sensors. It uses a left-right (LR) orientation and more detailed nodes and labels.
+
+```mermaid
+%% Detailed Diagram (Left-Right)
+graph LR
     subgraph Propulsion_System[Propulsion System]
     A[Hydrogen Tank]
     B[Fuel Cell Module]
@@ -81,8 +114,22 @@ This token provides a standard method to create and document system architecture
     B -- Data --> S2
     S1 -- Data --> C
     S2 -- Data --> C
+```
 
-   ```
+**Notes:**  
+- This diagram uses `graph LR` for a left-to-right flow.
+- The `Propulsion_System` subgraph groups all propulsion-related components.
+- The `Sensors_IoT` subgraph groups sensor components.
+- Data flows from the Fuel Cell Module to sensors, and then from sensors back to the Inverter/Power Bus node.
+- Labels on arrows clarify the type of resource or signal being transferred.
+
+---
+
+**Next Steps:**
+
+- You can adjust node names, add more components, or integrate this diagram into a documentation pipeline (e.g., S1000D-based manuals, PTS reports, or MTL-based procedures).
+- If using GenAI, you can prompt the model to refine the diagram’s layout or suggest different icons and node shapes.
+- Store the Mermaid code in version control for easy updates and traceability.
 
    This diagram shows hydrogen flow from the tank to the fuel cell, electrical energy distribution to motors, and data flow from sensors to the power bus. GenAI can refine symbols or generate SVG/PNG output.
 
