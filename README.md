@@ -41,7 +41,7 @@ graph TD
     H1 --> H13[Global Aviation Documentation Compatibility]
     
     H --> H2[MTL (Methods Token Library)]
-    H2 --> H21[Standardized Method Tokens (MT-<DOMAIN>-<METHODID>-<VERSION>)]
+    H2 --> H21[Standardized Method Tokens MT-<DOMAIN>-<METHODID>-<VERSION>]
     H2 --> H22[Single-Source Updates for Procedures]
     H2 --> H23[Easy Integration with Maintenance Documents]
     
