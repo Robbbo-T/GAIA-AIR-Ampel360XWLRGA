@@ -4,7 +4,7 @@
 ```mermaid
 graph TD
     A[A360XWLRGA Long-Range Aircraft Overview]
-    A --> B[Diffusp Concept (Zer0 Emissions, Hydrogen-based)]
+    A --> B[Diffusp Concept Zer0 Emissions, Hydrogen-based]
     
     B --> C[Hydrogen Fuel Cells]
     C --> C1[High-Efficiency Conversion]
