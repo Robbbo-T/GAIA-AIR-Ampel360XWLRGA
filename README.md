@@ -41,13 +41,13 @@ graph TD
     H1 --> H13[Global Aviation Documentation Compatibility]
     
     H --> H2[MTL (Methods Token Library)]
-    H2 --> H21[Standardized Method Tokens MT-<DOMAIN>-<METHODID>-<VERSION>]
+    H2 --> H21[Standardized Method Tokens MT-DOMAIN-METHODID-VERSION>]
     H2 --> H22[Single-Source Updates for Procedures]
     H2 --> H23[Easy Integration with Maintenance Documents]
     
     H --> H3[Compliance & Governance]
     H3 --> H31[Adherence to ATA Chapters]
-    H3 --> H32[Regulatory (FAA, EASA) Alignment]
+    H3 --> H32[Regulatory FAA, EASA Alignment]
     H3 --> H33[Audit-Ready, Immutable Maintenance Logs]
     
     %% Optional: Styling Nodes for Better Visualization
