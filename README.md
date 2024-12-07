@@ -23,7 +23,7 @@ graph TD
     E --> E4[Redundancy & Safety]
     
     B --> F[IoT-based Sensors and Actuators]
-    F --> F1[Real-Time Data Collection (Pressure, Temp, Vibration)]
+    F --> F1[Real-Time Data Collection Pressure, Temp, Vibration]
     F --> F2[Predictive Maintenance Input]
     F --> F3[Continuous Performance Monitoring]
     F --> F4[Secure, Encrypted Data Transmission]
