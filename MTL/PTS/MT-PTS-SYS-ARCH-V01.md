@@ -54,54 +54,48 @@ This token provides a standard method to create and document system architecture
 
 3. **Generate the Mermaid Diagram:**  
    Use the prompt to create a Mermaid diagram. You can do this manually or with GenAI suggestions.
+
    
    Example Diagram:
-   ```mermaid
-   %% Style Classes
-   classDef prop fill=#e0f7fa,stroke=#006064,stroke-width=1px,color=#006064;
-   classDef io fill=#ffe0b2,stroke=#ff6f00,stroke-width=1px,color=#bf360c;
-   classDef output fill=#e8f5e9,stroke=#1b5e20,stroke-width=1px,color=#1b5e20;
+ graph LR
+```
+    subgraph Propulsion_System[Propulsion System]
+    A[Hydrogen Tank]
+    B[Fuel Cell Module]
+    C[Inverter/Power Bus]
+    D[Electric Motors]
+    E[Aerodynamic Output]
+    end
 
-   graph LR
-       subgraph Propulsion_System[Propulsion System]
-       A[Hydrogen Tank]
-       B[Fuel Cell Module]
-       C[Inverter/Power Bus]
-       D[Electric Motors]
-       E[Aerodynamic Output]
-       end
-       class A,B,C,D,E prop
+    subgraph Sensors_IoT[Sensor/IoT Subsystem]
+    S1[Temp Sensor]
+    S2[Pressure Sensor]
+    end
 
-       subgraph Sensors_IoT[Sensor/IoT Subsystem]
-       S1[Temp Sensor]
-       S2[Pressure Sensor]
-       end
-       class S1,S2 io
+    A -->|H₂ Liquid| B
+    B -->|Electricity| C
+    C -->|Power Distribution| D
+    D -->|Thrust| E
 
-       A -->|H₂ Liquid| B
-       B -->|Electricity| C
-       C -->|Power Distribution| D
-       D -->|Thrust| E
+    B -- Data --> S1
+    B -- Data --> S2
+    S1 -- Data --> C
+    S2 -- Data --> C
 
-       B -- Data --> S1
-       B -- Data --> S2
-       S1 -- Data --> C
-       S2 -- Data --> C
-       class E output
    ```
 
    This diagram shows hydrogen flow from the tank to the fuel cell, electrical energy distribution to motors, and data flow from sensors to the power bus. GenAI can refine symbols or generate SVG/PNG output.
 
-4. **Integrate with GenAI and MTL Tokens:**  
+5. **Integrate with GenAI and MTL Tokens:**  
    - Enrich the diagram with GenAI-generated icons.  
    - Reference MTL tokens (e.g., `MT-H2-FC-INS-V01`) in notes or metadata.  
    - Link nodes to Data Modules (e.g., `B[Fuel Cell Module (GAA-7200-SD-00-E-0001)]`).
 
-5. **Version Control and CM:**  
+6. **Version Control and CM:**  
    - Store Mermaid code in a CM repository.  
    - Each commit links to a version of MT-PTS-SYS-ARCH-V01 and the PTS revision.
 
-6. **Validation and Review:**  
+7. **Validation and Review:**  
    - The engineering team reviews the diagram.  
    - Adjust prompts or Mermaid code if necessary.  
    - Use GenAI for more detail (e.g., 3D views or physical layouts).
