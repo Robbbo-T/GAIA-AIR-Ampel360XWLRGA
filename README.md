@@ -54,7 +54,7 @@ graph TD
     classDef tech fill:#f9f,stroke:#333,stroke-width:2px;
     class C,D,E,F,G,H tech;
 
-
+```
 
 Below is the updated **Integral Document for the GAIA AIR Program**. In this version, the Data Module Codes (DMCs) have been assigned in compliance with S1000D standards, while maintaining compatibility with legacy ATA references as previously validated. The final DMC format incorporates:
 
