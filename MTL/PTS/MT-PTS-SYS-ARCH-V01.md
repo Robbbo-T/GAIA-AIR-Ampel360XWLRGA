@@ -48,11 +48,13 @@ This token provides a standard method to create and document system architecture
 
     %% This diagram shows a simple flow of resources from the Hydrogen Tank 
     %% through the Fuel Cell, then the Electric Motor, and finally to the Power Bus.
-
-   flowchart TD
+ 
+  ```  
+flowchart TD
     A[Hydrogen Tank] -->|H₂ Supply| B[Fuel Cell]
     B -->|Electricity| C[Electric Motor]
     C -->|Power Output| D[Power Bus]
+ ```
 
 4. **Generate the Mermaid Diagram:**  
    Use the prompt to create a Mermaid diagram. You can do this manually or with GenAI suggestions.
