@@ -1,4 +1,3 @@
----
 
 **Metadatos del Documento**  
 - **Título:** MT-PTS-BOM-GEN-V01  
