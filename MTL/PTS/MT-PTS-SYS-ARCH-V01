@@ -1,0 +1,118 @@
+---
+
+**Metadatos del Documento**  
+- **Título:** MT-PTS-SYS-ARCH-V01  
+- **Descripción:** Methods Token (MTL) for System Architecture Specification in PTS with Mermaid Diagrams (STE)  
+- **Versión:** V01  
+- **Fecha:** Diciembre 2024  
+- **Autor:** Amedeo Pelliccia  
+- **Clasificación:** CALL FOR COLLABORATION
+
+---
+
+**Token Name:** MT-PTS-SYS-ARCH-V01  
+**Dominio:** PTS (Technical Specifications of the System)  
+**Función:** Definir y representar la arquitectura del sistema a nivel conceptual, lógico y físico. Producir diagramas estandarizados (funcionales, lógicos, físicos) usando GenAI, analogías digitales y Mermaid. Este token guía la creación de diagramas en sintaxis Mermaid, alineados con estándares S1000D, STE, MTL, entre otros.
+
+---
+
+**Descripción:**  
+Este token establece un método estándar para crear y documentar arquitecturas de sistemas. Integra analogías digitales, GenAI (Inteligencia Artificial Generativa) y métodos MTL. Mediante prompts STE y MTL, se pueden generar diagramas funcionales, lógicos y físicos. Mermaid facilita la creación, edición y versionado de diagramas basados en texto, aptos para repositorios de control de versiones y CI/CD.
+
+---
+
+**Objetivos:**  
+1. Proporcionar un método claro para crear vistas de arquitectura (funcional, lógica, física) usando GenAI y analogías digitales.  
+2. Utilizar Mermaid para editar y versionar fácilmente diagramas basados en texto.  
+3. Garantizar la coherencia con MTL, S1000D, STE, ATA, FAA, EASA.  
+4. Reducir el esfuerzo manual, mejorando trazabilidad y calidad de la documentación.
+
+**Alcance:**  
+- Aplicación: Durante la definición y actualización de PTS.  
+- Sistemas/Subsistemas: Propulsión (H₂), Aviónica (NAV, COM), Eléctrico (ELE), Hidráulico (HYD), IoT, IA.  
+- Herramientas: GenAI para generar imágenes similares a CAD, Mermaid para diagramas en texto, repositorios de CM.
+
+---
+
+**Entradas y Prerrequisitos:**  
+- Descripciones STE del sistema (funcionales, no funcionales, parámetros, límites).  
+- Analogías digitales definidas.  
+- Tokens MTL relacionados (ej. MT-PTS-BOM-GEN-V01, MT-PTS-IFD-DATA-V01).
+
+---
+
+**Procedimiento General:**  
+1. **Seleccionar Nivel de Abstracción:** Funcional, Lógico, Físico.  
+2. **Crear el Prompt STE y Analogía Digital:** Redactar un prompt STE describiendo nodos, flujos y relaciones.  
+3. **Generar el Diagrama Mermaid:**  
+   - Ejemplo simple (flujo H₂, célula de combustible, motor eléctrico, bus de potencia):
+
+     ```mermaid
+     flowchart TD
+       A[Hydrogen Tank] -->|H₂ Supply| B[Fuel Cell]
+       B -->|Electricity| C[Electric Motor]
+       C -->|Power Output| D[Power Bus]
+```
+   
+   - Ejemplo detallado (con subgrafos y sensores, orientación LR):
+
+     ```mermaid
+     graph LR
+       subgraph Propulsion_System
+         A[Hydrogen Tank]
+         B[Fuel Cell]
+         C[Electric Motor]
+       end
+
+       subgraph Sensors_IoT
+         S1[Sensor: Temp]
+         S2[Sensor: Pressure]
+       end
+
+       A -->|H₂| B -->|Electricity| C
+       B -->|Data| S1
+       S1 -->|Data| S2
+       S2 -->|Data| C[Inverter/Power Bus]
+     ```
+
+4. **Edición y Refinamiento:** Ajustar nombres, añadir componentes, integrar a la tubería de documentación (S1000D, PTS, MTL).
+
+5. **GenAI y Repositorios:**  
+   - Usar GenAI para refinar el diagrama, sugerir íconos, generar SVG/PNG.  
+   - Versionar el código Mermaid en repositorios CM, enlazando cada commit con una versión específica de PTS.
+
+6. **Validación y Revisión:**  
+   - El equipo de ingeniería revisa el diagrama.  
+   - Ajustar si es necesario, usar GenAI para más detalle (3D, layouts físicos).
+
+---
+
+**Salidas y Resultados:**  
+- Código Mermaid para diagramas funcionales/lógicos/físicos.  
+- Imágenes SVG/PNG generadas por Mermaid y/o GenAI.  
+- Metadatos enlazados a otros módulos de datos y tokens MTL.
+
+**Resultados Esperados:**  
+- Documentación gráfica estandarizada, fácil de versionar y actualizar.  
+- Material listo para manuales S1000D, reportes PTS o herramientas ALM/PLM.
+
+---
+
+**Integración con Otros Tokens MTL:**  
+- **MT-PTS-BOM-GEN-V01:** Ayuda a ubicar componentes en la BOM usando la arquitectura.  
+- **MT-PTS-IFD-DATA-V01:** Apoya la definición de interfaces, el diagrama ilustra líneas de comunicación.  
+- **MT-FMEA-ANL-V01:** El diagrama muestra nodos críticos para análisis de fiabilidad.
+
+---
+
+**Consideraciones de Seguridad y Normativas:**  
+- Mantener STE para reducir ambigüedad.  
+- Seguir S1000D/ATA para códigos de componentes.  
+- Asegurar que las analogías digitales no generen confusión; el diagrama es representativo, no exacto.
+
+---
+
+**Fin del Documento:**  
+**MT-PTS-SYS-ARCH-V01 (Versión STE)**
+
+Este documento establece un método estandarizado para la creación y mantenimiento de diagramas de arquitectura del sistema, integrando GenAI, MTL, STE, S1000D y otras normativas. Facilita la trazabilidad, el versionado y la calidad de la documentación técnica en el contexto PTS.
